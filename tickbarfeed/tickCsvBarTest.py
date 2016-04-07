@@ -18,6 +18,7 @@ if __name__ == "__main__":
     frequency = TickBar.Frequency.SECOND
 
     feed = TickBarFeed(frequency)
+    #读取的数据 datetime不能重复 datetime 是由nactionday+ntime 组成 确保datetime是唯一的
     feed.addBarsFromCSV("000738", "../histdata/tick/stock_2016-02-26_tick2_processed.csv")
 
     # Evaluate the strategy with the feed's bars.
