@@ -53,10 +53,10 @@ class Frequency(object):
 class TickBar():
     # Optimization to reduce memory footprint.
     __slots__ = (
-            'datetime','preclose','open','high','low','match','askPrice1','askPrice2','askPrice3','askPrice4','askPrice5','askPrice6','askPrice7','askPrice8','askPrice9','askPrice10','bidPrice1','bidPrice2','bidPrice3','bidPrice4','bidPrice5','bidPrice6','bidPrice7','bidPrice8','bidPrice9','bidPrice10','askVol1','askVol2','askVol3','askVol4','askVol5','askVol6','askVol7','askVol8','askVol9','askVol10','bidVol1','bidVol2','bidVol3','bidVol4','bidVol5','bidVol6','bidVol7','bidVol8','bidVol9','bidVol10','numTradesColName','volume','turnover','totalaskvol','totalbidvol','weightedavgaskprice','weightedavgbidprice','frequency'
+            'datetime','preclose','open','close','high','low','match','askPrice1','askPrice2','askPrice3','askPrice4','askPrice5','askPrice6','askPrice7','askPrice8','askPrice9','askPrice10','bidPrice1','bidPrice2','bidPrice3','bidPrice4','bidPrice5','bidPrice6','bidPrice7','bidPrice8','bidPrice9','bidPrice10','askVol1','askVol2','askVol3','askVol4','askVol5','askVol6','askVol7','askVol8','askVol9','askVol10','bidVol1','bidVol2','bidVol3','bidVol4','bidVol5','bidVol6','bidVol7','bidVol8','bidVol9','bidVol10','numTradesColName','volume','turnover','totalaskvol','totalbidvol','weightedavgaskprice','weightedavgbidprice','frequency'
     )
 
-    def __init__(self,datetime,preclose,open,high,low,match,askPrice1,askPrice2,askPrice3,askPrice4,askPrice5,askPrice6,askPrice7,askPrice8,askPrice9,askPrice10,bidPrice1,bidPrice2,bidPrice3,bidPrice4,bidPrice5,bidPrice6,bidPrice7,bidPrice8,bidPrice9,bidPrice10,askVol1,askVol2,askVol3,askVol4,askVol5,askVol6,askVol7,askVol8,askVol9,askVol10,bidVol1,bidVol2,bidVol3,bidVol4,bidVol5,bidVol6,bidVol7,bidVol8,bidVol9,bidVol10,numTradesColName,volume,turnover,totalaskvol,totalbidvol,weightedavgaskprice,weightedavgbidprice,frequency):
+    def __init__(self,datetime,preclose,open,close,high,low,match,askPrice1,askPrice2,askPrice3,askPrice4,askPrice5,askPrice6,askPrice7,askPrice8,askPrice9,askPrice10,bidPrice1,bidPrice2,bidPrice3,bidPrice4,bidPrice5,bidPrice6,bidPrice7,bidPrice8,bidPrice9,bidPrice10,askVol1,askVol2,askVol3,askVol4,askVol5,askVol6,askVol7,askVol8,askVol9,askVol10,bidVol1,bidVol2,bidVol3,bidVol4,bidVol5,bidVol6,bidVol7,bidVol8,bidVol9,bidVol10,numTradesColName,volume,turnover,totalaskvol,totalbidvol,weightedavgaskprice,weightedavgbidprice,frequency):
         # if high < low:
         #     raise Exception("high < low on %s" % (dateTime))
         # elif high < open_:
@@ -70,6 +70,7 @@ class TickBar():
         self.datetime = datetime
         self.preclose	=	preclose
         self.open	=	open
+        self.close = close
         self.high	=	high
         self.low	=	low
         self.match	=	match
@@ -127,6 +128,7 @@ class TickBar():
         (self.datetime	,
         self.preclose	,
         self.open	,
+        self.close,
         self.high	,
         self.low	,
         self.match	,
@@ -185,6 +187,7 @@ class TickBar():
            self.datetime	,
             self.preclose	,
             self.open	,
+            self.close,
             self.high	,
             self.low	,
             self.match	,
@@ -246,16 +249,22 @@ class TickBar():
     def getPreClose(self):
         return self.preclose
 
-    def getOpen(self):
+    def getOpen(self, adjusted=False):
         return self.open
 
-    def getHigh(self):
+    def getClose(self,adjusted=False):
+        return self.close
+
+    def getHigh(self, adjusted=False):
         return self.high
 
-    def getLow(self):
+    def getLow(self, adjusted=False):
         return self.low
 
     def getMatch(self):
+        return self.match
+
+    def getPrice(self):
         return self.match
 
     def getAskPrice1(self):

@@ -59,9 +59,8 @@ class BarFeed(membf.BarFeed):
                 self.__nextPos[instrument] += 1
 
             if self.__currDateTime==smallestDateTime:
-                t=parser.parse(smallestDateTime).strptime(smallestDateTime,'%Y-%m-%d %H:%M:%S')+datetime.timedelta(seconds=1)
-                smallestDateTime=t.strftime('%Y-%m-%d %H:%M:%S')
-                ret[instrument].datetime=smallestDateTime
+                t=smallestDateTime+datetime.timedelta(seconds=1)
+                ret[instrument].datetime=t
                 #raise Exception("Duplicate bars found for %s on %s" % (list(ret.keys()), smallestDateTime))
         #if self.__currDateTime is not None:
             #t1=parser.parse(self.__currDateTime)
@@ -163,7 +162,7 @@ class TickRowParser(RowParser):
     def _parseTime(self,nDate,time):
         time=time[3:-11]
         time=str(nDate)+" "+time
-        return  parser.parse(time).strftime('%Y-%m-%d %H:%M:%S')
+        return  parser.parse(time)
 
     def getDelimiter(self):
         return ','
@@ -177,21 +176,22 @@ class TickRowParser(RowParser):
     #TODO
     def parseBar(self, csvRowDict):
         datetime = self._parseTime(csvRowDict[self.nActionDayColName],csvRowDict[self.timeColName])
-        preclose = float(csvRowDict[self.preCloseColName])
-        open = float(csvRowDict[self.nOpenColName])
-        high = float(csvRowDict[self.nHighColName])
-        low = float(csvRowDict[self.nLowColName])
-        match = float(csvRowDict[self.nMatchColName])
-        askPrice1=float(csvRowDict[self.nAskPrice1ColName])
-        askPrice2=float(csvRowDict[self.nAskPrice2ColName])
-        askPrice3=float(csvRowDict[self.nAskPrice3ColName])
-        askPrice4=float(csvRowDict[self.nAskPrice4ColName])
-        askPrice5=float(csvRowDict[self.nAskPrice5ColName])
-        askPrice6=float(csvRowDict[self.nAskPrice6ColName])
-        askPrice7=float(csvRowDict[self.nAskPrice7ColName])
-        askPrice8=float(csvRowDict[self.nAskPrice8ColName])
-        askPrice9=float(csvRowDict[self.nAskPrice9ColName])
-        askPrice10=float(csvRowDict[self.nAskPrice10ColName])
+        preclose = float(csvRowDict[self.preCloseColName])/10000
+        open = float(csvRowDict[self.nOpenColName])/10000
+        close=float(csvRowDict[self.nOpenColName])/10000
+        high = float(csvRowDict[self.nHighColName])/10000
+        low = float(csvRowDict[self.nLowColName])/10000
+        match = float(csvRowDict[self.nMatchColName])/10000
+        askPrice1=float(csvRowDict[self.nAskPrice1ColName])/10000
+        askPrice2=float(csvRowDict[self.nAskPrice2ColName])/10000
+        askPrice3=float(csvRowDict[self.nAskPrice3ColName])/10000
+        askPrice4=float(csvRowDict[self.nAskPrice4ColName])/10000
+        askPrice5=float(csvRowDict[self.nAskPrice5ColName])/10000
+        askPrice6=float(csvRowDict[self.nAskPrice6ColName])/10000
+        askPrice7=float(csvRowDict[self.nAskPrice7ColName])/10000
+        askPrice8=float(csvRowDict[self.nAskPrice8ColName])/10000
+        askPrice9=float(csvRowDict[self.nAskPrice9ColName])/10000
+        askPrice10=float(csvRowDict[self.nAskPrice10ColName])/10000
         askVol1=float(csvRowDict[self.nAskVol1ColName])
         askVol2=float(csvRowDict[self.nAskVol2ColName])
         askVol3=float(csvRowDict[self.nAskVol3ColName])
@@ -202,16 +202,16 @@ class TickRowParser(RowParser):
         askVol8=float(csvRowDict[self.nAskVol8ColName])
         askVol9=float(csvRowDict[self.nAskVol9ColName])
         askVol10=float(csvRowDict[self.nAskVol10ColName])
-        bidPrice1=float(csvRowDict[self.nBidPrice1ColName])
-        bidPrice2=float(csvRowDict[self.nBidPrice2ColName])
-        bidPrice3=float(csvRowDict[self.nBidPrice3ColName])
-        bidPrice4=float(csvRowDict[self.nBidPrice4ColName])
-        bidPrice5=float(csvRowDict[self.nBidPrice5ColName])
-        bidPrice6=float(csvRowDict[self.nBidPrice6ColName])
-        bidPrice7=float(csvRowDict[self.nBidPrice7ColName])
-        bidPrice8=float(csvRowDict[self.nBidPrice8ColName])
-        bidPrice9=float(csvRowDict[self.nBidPrice9ColName])
-        bidPrice10=float(csvRowDict[self.nBidPrice10ColName])
+        bidPrice1=float(csvRowDict[self.nBidPrice1ColName])/10000
+        bidPrice2=float(csvRowDict[self.nBidPrice2ColName])/10000
+        bidPrice3=float(csvRowDict[self.nBidPrice3ColName])/10000
+        bidPrice4=float(csvRowDict[self.nBidPrice4ColName])/10000
+        bidPrice5=float(csvRowDict[self.nBidPrice5ColName])/10000
+        bidPrice6=float(csvRowDict[self.nBidPrice6ColName])/10000
+        bidPrice7=float(csvRowDict[self.nBidPrice7ColName])/10000
+        bidPrice8=float(csvRowDict[self.nBidPrice8ColName])/10000
+        bidPrice9=float(csvRowDict[self.nBidPrice9ColName])/10000
+        bidPrice10=float(csvRowDict[self.nBidPrice10ColName])/10000
         bidVol1=float(csvRowDict[self.nBidVol1ColName])
         bidVol2=float(csvRowDict[self.nBidVol2ColName])
         bidVol3=float(csvRowDict[self.nBidVol3ColName])
@@ -227,10 +227,10 @@ class TickRowParser(RowParser):
         turnover=float(csvRowDict[self.iTurnoverColName])
         totalbidvol=float(csvRowDict[self.nTotalBidVolColName])
         totalaskvol=float(csvRowDict[self.nTotalAskVolColName])
-        weightedavgbidprice=float(csvRowDict[self.nWeightedAvgBidPriceColName])
-        weightedavgaskprice=float(csvRowDict[self.nWeightedAvgAskPriceColName])
+        weightedavgbidprice=float(csvRowDict[self.nWeightedAvgBidPriceColName])/10000
+        weightedavgaskprice=float(csvRowDict[self.nWeightedAvgAskPriceColName])/10000
 
-        return TickBar.TickBar(datetime, preclose, open, high, low, match, askPrice1, askPrice2, askPrice3, askPrice4, askPrice5, askPrice6, askPrice7, askPrice8, askPrice9, askPrice10, bidPrice1, bidPrice2, bidPrice3, bidPrice4, bidPrice5, bidPrice6, bidPrice7, bidPrice8, bidPrice9, bidPrice10, askVol1, askVol2, askVol3, askVol4, askVol5, askVol6, askVol7, askVol8, askVol9, askVol10, bidVol1, bidVol2, bidVol3, bidVol4, bidVol5, bidVol6, bidVol7, bidVol8, bidVol9, bidVol10, numTradesColName, volume, turnover, totalaskvol, totalbidvol, weightedavgaskprice, weightedavgbidprice, self.__frequency)
+        return TickBar.TickBar(datetime, preclose, open,close, high, low, match, askPrice1, askPrice2, askPrice3, askPrice4, askPrice5, askPrice6, askPrice7, askPrice8, askPrice9, askPrice10, bidPrice1, bidPrice2, bidPrice3, bidPrice4, bidPrice5, bidPrice6, bidPrice7, bidPrice8, bidPrice9, bidPrice10, askVol1, askVol2, askVol3, askVol4, askVol5, askVol6, askVol7, askVol8, askVol9, askVol10, bidVol1, bidVol2, bidVol3, bidVol4, bidVol5, bidVol6, bidVol7, bidVol8, bidVol9, bidVol10, numTradesColName, volume, turnover, totalaskvol, totalbidvol, weightedavgaskprice, weightedavgbidprice, self.__frequency)
 
 
 class TickBarFeed(BarFeed):
