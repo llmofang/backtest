@@ -250,7 +250,7 @@ class TickBar():
         return self.preclose
 
     def getOpen(self, adjusted=False):
-        return self.open
+        return self.match
 
     def getClose(self,adjusted=False):
         return self.close

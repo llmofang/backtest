@@ -219,7 +219,7 @@ class bollinger_band(strategy.BacktestingStrategy):
 
 if __name__ == "__main__":
     strat = bollinger_band
-    instrument = '000738'
+    instrument = '002099'
     market = 'SZ'
     date = '2016-02-26'
     #toDate ='20160101'
@@ -235,7 +235,7 @@ if __name__ == "__main__":
         path = "..\\histdata\\day\\"
     elif frequency == bar.Frequency.SECOND:
         path = "..\\histdata\\tick\\"
-    filepath = path +'stock_'+ instrument + "_"+date+".csv"
+    filepath = path +'stock_'+ instrument + "_"+date+"_tick.csv"
 
     #############################################don't change ############################33
     from pyalgotrade.barfeed.csvfeed import GenericBarFeed

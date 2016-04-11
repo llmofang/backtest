@@ -178,7 +178,7 @@ class TickRowParser(RowParser):
         datetime = self._parseTime(csvRowDict[self.nActionDayColName],csvRowDict[self.timeColName])
         preclose = float(csvRowDict[self.preCloseColName])/10000
         open = float(csvRowDict[self.nOpenColName])/10000
-        close=float(csvRowDict[self.nOpenColName])/10000
+        close=float(csvRowDict[self.nMatchColName])/10000
         high = float(csvRowDict[self.nHighColName])/10000
         low = float(csvRowDict[self.nLowColName])/10000
         match = float(csvRowDict[self.nMatchColName])/10000
