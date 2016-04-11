@@ -1,4 +1,4 @@
-from stratlib.tickcsvfeed import TickBarFeed
+from tickbarfeed.tickcsvfeed import TickBarFeed
 
 from pyalgotrade import strategy
 from tickbarfeed import TickBar

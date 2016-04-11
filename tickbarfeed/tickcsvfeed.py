@@ -6,7 +6,7 @@ from pyalgotrade.utils import csvutils
 
 from pyalgotrade import bar
 from pyalgotrade import dataseries
-from stratlib import TickBarDataSeries
+from tickbarfeed import TickBarDataSeries
 from tickbarfeed import TickBar
 
 
@@ -57,14 +57,20 @@ class BarFeed(membf.BarFeed):
             if nextPos < len(bars) and bars[nextPos].getDateTime() == smallestDateTime:
                 ret[instrument] = bars[nextPos]
                 self.__nextPos[instrument] += 1
-        if self.__currDateTime is not None:
-            t1=parser.parse(self.__currDateTime)
-            t2=parser.parse(smallestDateTime)
-            if t1>= t2:
-               # raise Exception("Duplicate bars found for %s on %s" % (list(ret.keys()), smallestDateTime))
+
+            if self.__currDateTime==smallestDateTime:
                 t=parser.parse(smallestDateTime).strptime(smallestDateTime,'%Y-%m-%d %H:%M:%S')+datetime.timedelta(seconds=1)
                 smallestDateTime=t.strftime('%Y-%m-%d %H:%M:%S')
                 ret[instrument].datetime=smallestDateTime
+                #raise Exception("Duplicate bars found for %s on %s" % (list(ret.keys()), smallestDateTime))
+        #if self.__currDateTime is not None:
+            #t1=parser.parse(self.__currDateTime)
+            #t2=parser.parse(smallestDateTime)
+            #if t1>= t2:
+
+                #t=parser.parse(smallestDateTime).strptime(smallestDateTime,'%Y-%m-%d %H:%M:%S')+datetime.timedelta(seconds=1)
+                #smallestDateTime=t.strftime('%Y-%m-%d %H:%M:%S')
+                #ret[instrument].datetime=smallestDateTime
         self.__currDateTime = smallestDateTime
         return bar.Bars(ret)
 
@@ -154,6 +160,11 @@ class TickRowParser(RowParser):
         DateTime=nDate+nTime
         return parser.parse(DateTime).strftime('%Y-%m-%d %H:%M:%S')
 
+    def _parseTime(self,nDate,time):
+        time=time[3:-11]
+        time=str(nDate)+" "+time
+        return  parser.parse(time).strftime('%Y-%m-%d %H:%M:%S')
+
     def getDelimiter(self):
         return ','
 
@@ -165,7 +176,7 @@ class TickRowParser(RowParser):
         return self.haveAdjClose
     #TODO
     def parseBar(self, csvRowDict):
-        datetime = self._parseDate(csvRowDict[self.nActionDayColName],csvRowDict[self.timeColName])
+        datetime = self._parseTime(csvRowDict[self.nActionDayColName],csvRowDict[self.timeColName])
         preclose = float(csvRowDict[self.preCloseColName])
         open = float(csvRowDict[self.nOpenColName])
         high = float(csvRowDict[self.nHighColName])
@@ -230,7 +241,7 @@ class TickBarFeed(BarFeed):
         self.barsHaveAdjClose=False
         #TODO
         self.columnNames={
-            "nTime":"nTime",
+            "nTime":"time",
             'nPreClose':'nPreClose',
             "nOpen":"nOpen",
             "nHigh":"nHigh",
