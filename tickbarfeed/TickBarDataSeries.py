@@ -127,7 +127,7 @@ class TickBarDataSeries(dataseries.SequenceDataSeries):
     def gethighDataSeries(self):
         return self.highDS
 
-    #如要取得bar中的序列在这添加方法
+    #22
 
     def getMatchDataSeries(self):
         return self.matchDS
