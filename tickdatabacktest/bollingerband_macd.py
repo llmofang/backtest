@@ -224,9 +224,9 @@ from pyalgotrade.barfeed.csvfeed import GenericBarFeed
 from pyalgotrade.barfeed import yahoofeed
 def parameters_generator():
     instrument=['002099']
-    longLine=list(range(150,250))
-    shortLine=list(range(50,100))
-    bollingerLenth=list(range(150,250))
+    longLine=list(range(150,250,5))
+    shortLine=list(range(50,100,5))
+    bollingerLenth=list(range(150,250,5))
     stddev=list(range(20,35))
     return itertools.product(instrument,longLine,shortLine,bollingerLenth,stddev)
 
