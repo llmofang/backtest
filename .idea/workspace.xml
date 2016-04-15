@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f51502c4-6479-466a-8f1f-df6ea65d6cf7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" afterPath="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickdatabacktest/bollingerband_macd.py" afterPath="$PROJECT_DIR$/tickdatabacktest/bollingerband_macd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickdatabacktest/bollingerband_macd_local_optimizer.py" afterPath="$PROJECT_DIR$/tickdatabacktest/bollingerband_macd_local_optimizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickdatabacktest/parameters_generator.py" afterPath="$PROJECT_DIR$/tickdatabacktest/parameters_generator.py" />
     </list>
     <ignored path="backtest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,17 +41,17 @@
         <entry file="file://$PROJECT_DIR$/stratlib/bollinger_band_macd.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="286" column="28" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="28" />
+              <caret line="243" column="50" selection-start-line="243" selection-start-column="50" selection-end-line="243" selection-end-column="50" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bollingerband_macd_local_optimizer.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="bollingerband_macd_local_optimizer.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tickdatabacktest/bollingerband_macd_local_optimizer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0961539">
-              <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="16" column="48" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="48" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -59,22 +59,36 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="csvfeed.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Python27/Lib/site-packages/pyalgotrade/barfeed/csvfeed.py">
+      <file leaf-file-name="parameters_generator.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tickdatabacktest/parameters_generator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.7">
-              <caret line="250" column="28" selection-start-line="250" selection-start-column="26" selection-end-line="250" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+              <folding>
+                <element signature="e#0#16#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="111.log" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tickdatabacktest/111.log">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="2.0040567">
+              <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/multiprocessing/__init__.py">
+      <file leaf-file-name="logger.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Python27/Lib/site-packages/pyalgotrade/logger.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
-              <folding />
+              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+              <folding>
+                <element signature="e#703#717#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -144,23 +158,25 @@
         <option value="$PROJECT_DIR$/tickdatabacktest/bollinger_macd.py" />
         <option value="$PROJECT_DIR$/tickbarfeed/tickcsvfeed.py" />
         <option value="$PROJECT_DIR$/tickbarfeed/TickBar.py" />
-        <option value="$PROJECT_DIR$/tickdatabacktest/parameters_generator.py" />
         <option value="$PROJECT_DIR$/321/321.py" />
         <option value="$PROJECT_DIR$/qqq/qqqq.py" />
         <option value="$PROJECT_DIR$/tickdatabacktest/rsi.py" />
         <option value="$PROJECT_DIR$/tickbarfeed/TickBarDataSeries.py" />
         <option value="C:/Python27/Lib/site-packages/pyalgotrade/barfeed/__init__.py" />
         <option value="$PROJECT_DIR$/tickdatabacktest/bollingerband_macd.py" />
-        <option value="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" />
         <option value="$PROJECT_DIR$/tickdatabacktest/bollingerband_macd_local_optimizer.py" />
+        <option value="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" />
+        <option value="C:/Python27/Lib/site-packages/pyalgotrade/logger.py" />
+        <option value="$PROJECT_DIR$/tickdatabacktest/parameters_generator.py" />
+        <option value="$PROJECT_DIR$/tickdatabacktest/111.log" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1374" />
-    <option name="y" value="304" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -299,7 +315,7 @@
       <recent name="D:\github\backtest\321" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.bollingerband_macd_local_optimizer">
+  <component name="RunManager" selected="Python.parameters_generator">
     <configuration default="false" name="bollingerband_macd" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -340,9 +356,9 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Python27\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stratlib" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="backtest" />
@@ -516,11 +532,11 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.bollingerband_macd_local_optimizer" />
+        <item index="0" class="java.lang.String" itemvalue="Python.parameters_generator" />
         <item index="1" class="java.lang.String" itemvalue="Python.bollinger_band_macd" />
-        <item index="2" class="java.lang.String" itemvalue="Python.bollingerband_macd" />
-        <item index="3" class="java.lang.String" itemvalue="Python.rsi" />
-        <item index="4" class="java.lang.String" itemvalue="Python.parameters_generator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.bollingerband_macd_local_optimizer" />
+        <item index="3" class="java.lang.String" itemvalue="Python.bollingerband_macd" />
+        <item index="4" class="java.lang.String" itemvalue="Python.rsi" />
       </list>
     </recent_temporary>
   </component>
@@ -538,16 +554,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1374" y="304" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38012618" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.44820297" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -612,32 +628,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tickdatabacktest/dia-2009.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickdatabacktest/rsi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="92" column="34" selection-start-line="92" selection-start-column="34" selection-end-line="92" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tickbarfeed/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tickdatabacktest/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -714,14 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="1565" column="0" selection-start-line="1565" selection-start-column="0" selection-end-line="1565" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/pyalgotrade/logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1004,6 +986,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/stratlib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pyalgotrade/plotter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33241758">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/pyalgotrade/logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+          <folding>
+            <element signature="e#703#717#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tickdatabacktest/bollingerband_macd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1014,29 +1022,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/site-packages/pyalgotrade/plotter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/stratlib/bollinger_band_macd.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="286" column="28" selection-start-line="286" selection-start-column="28" selection-end-line="286" selection-end-column="28" />
+          <caret line="243" column="50" selection-start-line="243" selection-start-column="50" selection-end-line="243" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tickdatabacktest/bollingerband_macd_local_optimizer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0961539">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="16" column="48" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="48" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickdatabacktest/parameters_generator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="19" column="31" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tickdatabacktest/111.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0040567">
+          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
