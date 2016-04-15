@@ -9,13 +9,13 @@ if __name__ == '__main__':
     import sys
     sys.path.append("..")
     from pyalgotrade import bar
-    from pyalgotrade import plotter
+    #from pyalgotrade import plotter
 # 以上模块仅测试用
 from pyalgotrade.broker.fillstrategy import DefaultStrategy
 from pyalgotrade.broker.backtesting import TradePercentage
 from pyalgotrade import strategy
 from pyalgotrade.technical import macd
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 from pyalgotrade.dataseries import SequenceDataSeries
 from pyalgotrade.broker.backtesting import TradePercentage
 from pyalgotrade.technical import bollinger
@@ -275,7 +275,7 @@ def parameters_generator():
 if __name__=='__main__':
     instrument='002099'
     stockcode='002099'
-    date=['2016-02-29','2016-03-02','2016-03-11']
+    date=['2016-03-11']
     path = "../histdata/tick/bak/"
 
    # barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
