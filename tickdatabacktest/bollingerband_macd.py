@@ -233,11 +233,14 @@ def parameters_generator():
 if __name__=='__main__':
     instrument='002099'
     stockcode='002099'
-    date='2016-02-26'
-    path = "../histdata/tick/"
-    filepath = path +'stock_'+ stockcode + "_"+date+"_tick.csv"
-    barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
-    barfeed.addBarsFromCSV(instrument, filepath)
+    date=['2016-02-29','2016-03-02','2016-03-11']
+    path = "../histdata/tick/bak/"
+
+   # barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
+    barfeed=GenericBarFeed(bar.Frequency.SECOND)
+    for d in date:
+        filepath = path +'stock_'+ stockcode + "_"+d+".csv"
+        barfeed.addBarsFromCSV(instrument, filepath)
     barfeed.setDateTimeFormat('%Y-%m-%d %H:%M:%S')
     local.run(bollinger_band,barfeed,parameters_generator())
 
