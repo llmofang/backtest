@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f51502c4-6479-466a-8f1f-df6ea65d6cf7" name="Default" comment="" />
+    <list default="true" id="f51502c4-6479-466a-8f1f-df6ea65d6cf7" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" afterPath="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" />
+    </list>
     <ignored path="backtest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +27,9 @@
       <file leaf-file-name="bollinger_band_macd.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/stratlib/bollinger_band_macd.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65957445">
-              <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-              <folding>
-                <element signature="e#98#157#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.35569423">
+              <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -245,10 +246,10 @@
       <recent name="D:\github\backtest\celery" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\github\backtest\stratlib" />
       <recent name="D:\github\backtest\celery" />
       <recent name="D:\github\backtest\tickdatabacktest" />
       <recent name="D:\github\backtest\tickbarfeed" />
-      <recent name="D:\github\backtest\stratlib" />
       <recent name="D:\github\backtest\321" />
     </key>
   </component>
@@ -958,11 +959,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/stratlib/bollinger_band_macd.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65957445">
-          <caret line="26" column="63" selection-start-line="26" selection-start-column="63" selection-end-line="26" selection-end-column="63" />
-          <folding>
-            <element signature="e#98#157#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.35569423">
+          <caret line="15" column="58" selection-start-line="15" selection-start-column="58" selection-end-line="15" selection-end-column="58" />
+          <folding />
         </state>
       </provider>
     </entry>
