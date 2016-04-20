@@ -23,7 +23,7 @@ def backtest(stockcode,date,p1,p2,p3,p4):
     strat.run()
     cash=strat.getBroker()._Broker__cash
     tradeTimes=strat.getTradeTimes()
-    ticker=open(path +'stock_'+ stockcode + "_"+'date'+".csv", 'a')
+    ticker=open(path +'stock_'+ stockcode + "_123123.csv", 'a')
     ticker.write(str(p1))
     ticker.write(',')
     ticker.write(str(p2))
@@ -39,6 +39,7 @@ def backtest(stockcode,date,p1,p2,p3,p4):
     ticker.write('\n')
     ticker.close()
     del strat
+    return ( stockcode,date,p1,p2,p3,p4,cash,tradeTimes)
 
 def func(stockcode,date,p1,p2,p3,p4):
     for sc in stockcode:
