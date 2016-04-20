@@ -105,6 +105,7 @@ if __name__ == "__main__":
     #toDate ='20160101'
     frequency = bar.Frequency.SECOND
     paras = [150, 300, 450, 2]
+
     plot = True
     
     #############################################path set ############################33 
