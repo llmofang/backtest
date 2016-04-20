@@ -15,15 +15,17 @@ def backtest(stockcode,date,p1,p2,p3,p4):
     plot = True
    # barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
     barfeed=GenericBarFeed(pyalgotrade.bar.Frequency.SECOND)
+    dstr=''
     for d in date:
         filepath = path +'stock_'+ stockcode + "_"+d+".csv"
         barfeed.addBarsFromCSV(stockcode, filepath)
+        dstr=dstr+'_'+d
     barfeed.setDateTimeFormat('%Y-%m-%d %H:%M:%S')
     strat = strat(barfeed, stockcode, *paras)
     strat.run()
     cash=strat.getBroker()._Broker__cash
     tradeTimes=strat.getTradeTimes()
-    ticker=open(path +'stock_'+ stockcode + "_123123.csv", 'a')
+    ticker=open(path +'stock_'+ stockcode+'_' + dstr+".csv", 'a')
     ticker.write(str(p1))
     ticker.write(',')
     ticker.write(str(p2))
