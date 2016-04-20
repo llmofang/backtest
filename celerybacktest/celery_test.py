@@ -49,6 +49,8 @@ def func(stockcode,date,p1,p2,p3,p4):
             for pa2 in p2:
                 for pa3 in p3:
                     for pa4 in p4:
+                        if p1<=p2:
+                            return
                         backtest.delay(sc,date,pa1,pa2,pa3,pa4)
 
 # if __name__ == "__main__":
