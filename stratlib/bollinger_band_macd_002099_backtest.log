@@ -1,0 +1,121 @@
+2016-04-15 14:05:16,387 server [INFO] Loading bars
+2016-04-15 14:05:17,448 server [INFO] Waiting for workers
+2016-04-18 12:48:11,934 server [INFO] Loading bars
+2016-04-18 12:48:13,002 server [INFO] Waiting for workers
+2016-04-18 12:48:16,874 server [ERROR] No jobs processed
+2016-04-18 12:50:17,828 server [INFO] Loading bars
+2016-04-18 12:50:18,917 server [INFO] Waiting for workers
+2016-04-18 12:50:35,348 server [INFO] Partial result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from worker-80780
+2016-04-18 12:50:36,859 server [INFO] Best final result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from client worker-80780
+2016-04-18 12:51:35,947 server [INFO] Loading bars
+2016-04-18 12:51:36,967 server [INFO] Waiting for workers
+2016-04-18 12:52:04,124 server [INFO] Partial result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from worker-82140
+2016-04-18 12:52:05,627 server [INFO] Best final result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from client worker-82140
+2016-04-18 12:57:41,667 server [INFO] Loading bars
+2016-04-18 12:57:42,690 server [INFO] Waiting for workers
+2016-04-18 12:57:49,168 server [INFO] Partial result 1001983.03345 with parameters: ['002099', 155, 85, 160, 29] from worker-78320
+2016-04-18 12:57:50,684 server [INFO] Best final result 1001983.03345 with parameters: ['002099', 155, 85, 160, 29] from client worker-78320
+2016-04-18 12:58:53,131 server [INFO] Loading bars
+2016-04-18 12:58:54,161 server [INFO] Waiting for workers
+2016-04-18 12:59:01,329 server [INFO] Partial result 1002683.70959 with parameters: ['002099', 160, 85, 160, 29] from worker-81988
+2016-04-18 12:59:02,842 server [INFO] Best final result 1002683.70959 with parameters: ['002099', 160, 85, 160, 29] from client worker-81988
+2016-04-18 13:00:11,427 server [INFO] Loading bars
+2016-04-18 13:00:12,476 server [INFO] Waiting for workers
+2016-04-18 13:00:20,726 server [INFO] Partial result 1003378.66412 with parameters: ['002099', 155, 85, 165, 29] from worker-80692
+2016-04-18 13:00:22,236 server [INFO] Best final result 1003378.66412 with parameters: ['002099', 155, 85, 165, 29] from client worker-80692
+2016-04-18 13:05:24,219 server [INFO] Loading bars
+2016-04-18 13:05:25,243 server [INFO] Waiting for workers
+2016-04-18 13:05:33,427 server [INFO] Partial result 1003378.66412 with parameters: ['002099', 155, 85, 165, 29] from worker-82636
+2016-04-18 13:05:34,931 server [INFO] Best final result 1003378.66412 with parameters: ['002099', 155, 85, 165, 29] from client worker-82636
+2016-04-18 13:06:18,915 server [INFO] Loading bars
+2016-04-18 13:06:19,950 server [INFO] Waiting for workers
+2016-04-18 13:06:28,344 server [INFO] Partial result 1003152.39206 with parameters: ['002099', 155, 85, 170, 29] from worker-82136
+2016-04-18 13:06:29,849 server [INFO] Best final result 1003152.39206 with parameters: ['002099', 155, 85, 170, 29] from client worker-82136
+2016-04-18 13:06:38,944 server [INFO] Loading bars
+2016-04-18 13:06:39,940 server [INFO] Waiting for workers
+2016-04-18 13:06:48,921 server [INFO] Partial result 1003152.39206 with parameters: ['002099', 155, 85, 170, 29] from worker-83340
+2016-04-18 13:06:50,427 server [INFO] Best final result 1003152.39206 with parameters: ['002099', 155, 85, 170, 29] from client worker-83340
+2016-04-18 13:07:28,174 server [INFO] Loading bars
+2016-04-18 13:07:29,180 server [INFO] Waiting for workers
+2016-04-18 13:07:38,296 server [INFO] Partial result 1003152.39206 with parameters: ['002099', 155, 85, 170, 29] from worker-83872
+2016-04-18 13:07:39,795 server [INFO] Best final result 1003152.39206 with parameters: ['002099', 155, 85, 170, 29] from client worker-83872
+2016-04-18 13:08:08,384 server [INFO] Loading bars
+2016-04-18 13:08:09,430 server [INFO] Waiting for workers
+2016-04-18 13:08:36,377 server [INFO] Partial result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from worker-83956
+2016-04-18 13:08:37,878 server [INFO] Best final result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from client worker-83956
+2016-04-18 13:09:57,937 server [INFO] Loading bars
+2016-04-18 13:09:58,977 server [INFO] Waiting for workers
+2016-04-18 13:10:25,772 server [INFO] Partial result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from worker-82392
+2016-04-18 13:10:27,282 server [INFO] Best final result 998781.43176 with parameters: ('002099', 155, 55, 155, 20) from client worker-82392
+2016-04-18 13:10:49,747 server [INFO] Loading bars
+2016-04-18 13:10:50,770 server [INFO] Waiting for workers
+2016-04-18 13:13:01,877 server [INFO] Partial result 1003565.42036 with parameters: ('002099', 320, 60, 155, 20) from worker-81716
+2016-04-18 13:14:33,357 server [INFO] Partial result 1005449.26156 with parameters: ('002099', 290, 60, 155, 20) from worker-82628
+2016-04-18 13:14:34,859 server [INFO] Best final result 1005449.26156 with parameters: ('002099', 290, 60, 155, 20) from client worker-82628
+2016-04-18 13:19:35,552 server [INFO] Loading bars
+2016-04-18 13:19:36,592 server [INFO] Waiting for workers
+2016-04-18 13:37:16,115 server [INFO] Loading bars
+2016-04-18 13:37:17,200 server [INFO] Waiting for workers
+2016-04-18 13:37:21,048 server [ERROR] No jobs processed
+2016-04-18 13:42:57,628 server [INFO] Loading bars
+2016-04-18 13:42:58,684 server [INFO] Waiting for workers
+2016-04-18 13:43:08,015 server [INFO] Partial result 998321.261744 with parameters: ('002099', 145, 50, 150, 24) from worker-84396
+2016-04-18 13:43:09,516 server [INFO] Best final result 998321.261744 with parameters: ('002099', 145, 50, 150, 24) from client worker-84396
+2016-04-18 13:44:00,812 server [INFO] Loading bars
+2016-04-18 13:44:01,832 server [INFO] Waiting for workers
+2016-04-18 13:44:07,273 server [INFO] Partial result 998321.261744 with parameters: ('002099', 145, 50, 150, 25) from worker-78472
+2016-04-18 13:44:08,782 server [INFO] Best final result 998321.261744 with parameters: ('002099', 145, 50, 150, 25) from client worker-78472
+2016-04-18 13:44:57,750 server [INFO] Loading bars
+2016-04-18 13:44:58,795 server [INFO] Waiting for workers
+2016-04-18 13:45:04,071 server [INFO] Partial result 998321.261744 with parameters: ('002099', 145, 50, 150, 20) from worker-84516
+2016-04-18 13:45:05,581 server [INFO] Best final result 998321.261744 with parameters: ('002099', 145, 50, 150, 20) from client worker-84516
+2016-04-18 13:45:25,382 server [INFO] Loading bars
+2016-04-18 13:45:26,431 server [INFO] Waiting for workers
+2016-04-18 13:45:49,548 server [INFO] Partial result 998321.261744 with parameters: ('002099', 145, 50, 150, 29) from worker-83460
+2016-04-18 13:45:51,051 server [INFO] Best final result 998321.261744 with parameters: ('002099', 145, 50, 150, 29) from client worker-83460
+2016-04-18 13:46:08,933 server [INFO] Loading bars
+2016-04-18 13:46:09,967 server [INFO] Waiting for workers
+2016-04-18 13:46:15,430 server [INFO] Partial result 996029.351288 with parameters: ('002099', 145, 50, 150, 39) from worker-84036
+2016-04-18 13:46:16,938 server [INFO] Best final result 996029.351288 with parameters: ('002099', 145, 50, 150, 39) from client worker-84036
+2016-04-18 13:46:55,793 server [INFO] Loading bars
+2016-04-18 13:46:56,894 server [INFO] Waiting for workers
+2016-04-18 13:47:20,164 server [INFO] Partial result 998321.261744 with parameters: ('002099', 145, 50, 150, 29) from worker-84128
+2016-04-18 13:47:21,671 server [INFO] Best final result 998321.261744 with parameters: ('002099', 145, 50, 150, 29) from client worker-84128
+2016-04-18 13:47:49,762 server [INFO] Loading bars
+2016-04-18 13:47:50,832 server [INFO] Waiting for workers
+2016-04-18 13:48:51,035 server [INFO] Partial result 1000000 with parameters: ('002099', 145, 50, 150, 79) from worker-83996
+2016-04-18 13:48:52,533 server [INFO] Best final result 1000000 with parameters: ('002099', 145, 50, 150, 79) from client worker-83996
+2016-04-18 13:50:02,109 server [INFO] Loading bars
+2016-04-18 13:50:03,194 server [INFO] Waiting for workers
+2016-04-18 13:55:06,598 server [INFO] Partial result 1000000 with parameters: ('002099', 149, 50, 150, 79) from worker-85452
+2016-04-18 13:55:06,983 server [INFO] Partial result 1000000 with parameters: ('002099', 146, 50, 150, 59) from worker-85460
+2016-04-18 13:55:08,315 server [INFO] Partial result 1000000 with parameters: ('002099', 142, 50, 150, 79) from worker-85468
+2016-04-18 13:55:09,819 server [INFO] Best final result 1000000 with parameters: ('002099', 149, 50, 150, 79) from client worker-85452
+2016-04-18 14:03:03,259 server [INFO] Loading bars
+2016-04-18 14:03:04,401 server [INFO] Waiting for workers
+2016-04-18 14:03:09,684 server [INFO] Partial result 997855.086744 with parameters: ['002099', 149, 50, 150, 29] from worker-85352
+2016-04-18 14:03:11,196 server [INFO] Best final result 997855.086744 with parameters: ['002099', 149, 50, 150, 29] from client worker-85352
+2016-04-18 14:03:28,150 server [INFO] Loading bars
+2016-04-18 14:03:29,210 server [INFO] Waiting for workers
+2016-04-18 14:03:35,506 server [INFO] Partial result 997855.086744 with parameters: ['002099', 149, 50, 150, 29] from worker-84900
+2016-04-18 14:03:37,009 server [INFO] Best final result 997855.086744 with parameters: ['002099', 149, 50, 150, 29] from client worker-84900
+2016-04-18 14:03:50,250 server [INFO] Loading bars
+2016-04-18 14:03:51,290 server [INFO] Waiting for workers
+2016-04-18 14:03:57,579 server [INFO] Partial result 997855.890528 with parameters: ['002099', 155, 50, 150, 29] from worker-83504
+2016-04-18 14:03:59,089 server [INFO] Best final result 997855.890528 with parameters: ['002099', 155, 50, 150, 29] from client worker-83504
+2016-04-18 14:04:29,670 server [INFO] Loading bars
+2016-04-18 14:04:30,729 server [INFO] Waiting for workers
+2016-04-18 14:04:42,772 server [INFO] Partial result 997855.890528 with parameters: ['002099', 155, 50, 150, 29] from worker-84412
+2016-04-18 14:04:44,282 server [INFO] Best final result 997855.890528 with parameters: ['002099', 155, 50, 150, 29] from client worker-84412
+2016-04-18 14:07:25,490 server [INFO] Loading bars
+2016-04-18 14:07:26,529 server [INFO] Waiting for workers
+2016-04-18 14:12:13,859 server [INFO] Partial result 1000000 with parameters: ('002099', 149, 50, 150, 79) from worker-81048
+2016-04-18 14:12:14,316 server [INFO] Partial result 1000000 with parameters: ('002099', 146, 50, 150, 59) from worker-78288
+2016-04-18 14:12:15,660 server [INFO] Partial result 1000000 with parameters: ('002099', 142, 50, 150, 79) from worker-76644
+2016-04-18 14:12:17,171 server [INFO] Best final result 1000000 with parameters: ('002099', 149, 50, 150, 79) from client worker-81048
+2016-04-18 14:27:42,546 server [INFO] Loading bars
+2016-04-18 14:27:43,684 server [INFO] Waiting for workers
+2016-04-18 14:32:59,141 server [INFO] Partial result 1000000 with parameters: ('002099', 146, 50, 150, 59) from worker-86072
+2016-04-18 14:33:00,279 server [INFO] Partial result 1000000 with parameters: ('002099', 149, 50, 150, 79) from worker-86064
+2016-04-18 14:33:00,736 server [INFO] Partial result 1000000 with parameters: ('002099', 142, 50, 150, 79) from worker-86080
+2016-04-18 14:33:02,239 server [INFO] Best final result 1000000 with parameters: ('002099', 146, 50, 150, 59) from client worker-86072
