@@ -1,0 +1,52 @@
+2016-04-15 13:51:53,503 server [INFO] Loading bars
+2016-04-15 13:51:53,614 server [INFO] Waiting for workers
+2016-04-15 13:52:08,378 server [INFO] Partial result 1145832.99191 with parameters: ('dia', 150, 5, 2, 95, 25) from worker-45668
+2016-04-15 13:52:08,463 server [INFO] Partial result 1104378.12874 with parameters: ('dia', 150, 5, 3, 91, 25) from worker-30860
+2016-04-15 13:52:08,578 server [INFO] Partial result 1145832.99191 with parameters: ('dia', 150, 5, 2, 83, 25) from worker-49608
+2016-04-15 13:52:08,763 server [INFO] Partial result 1145832.99191 with parameters: ('dia', 150, 5, 2, 93, 25) from worker-49128
+2016-04-15 13:52:20,081 server [INFO] Partial result 1104378.12874 with parameters: ('dia', 150, 5, 3, 95, 25) from worker-45668
+2016-04-15 13:52:20,140 server [INFO] Partial result 1059723.97559 with parameters: ('dia', 150, 5, 4, 89, 25) from worker-30860
+2016-04-15 13:52:20,279 server [INFO] Partial result 1059723.97559 with parameters: ('dia', 150, 5, 4, 95, 25) from worker-49608
+2016-04-15 13:52:20,338 server [INFO] Partial result 1027532.98875 with parameters: ('dia', 150, 5, 5, 87, 25) from worker-49128
+2016-04-15 13:52:32,194 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 6, 86, 9) from worker-30860
+2016-04-15 13:52:32,240 server [INFO] Partial result 1027532.98875 with parameters: ('dia', 150, 5, 5, 95, 25) from worker-45668
+2016-04-15 13:52:32,342 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 7, 84, 10) from worker-49128
+2016-04-15 13:52:32,384 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 6, 95, 20) from worker-49608
+2016-04-15 13:52:38,441 server [INFO] Loading bars
+2016-04-15 13:52:38,536 server [INFO] Waiting for workers
+2016-04-15 13:52:53,203 server [INFO] Partial result 1104378.12874 with parameters: ('dia', 150, 5, 3, 91, 25) from worker-48568
+2016-04-15 13:52:53,440 server [INFO] Partial result 1145832.99191 with parameters: ('dia', 150, 5, 2, 95, 25) from worker-49068
+2016-04-15 13:52:53,703 server [INFO] Partial result 1145832.99191 with parameters: ('dia', 150, 5, 2, 83, 25) from worker-49664
+2016-04-15 13:52:53,743 server [INFO] Partial result 1145832.99191 with parameters: ('dia', 150, 5, 2, 93, 25) from worker-47376
+2016-04-15 13:53:04,696 server [INFO] Partial result 1104378.12874 with parameters: ('dia', 150, 5, 3, 95, 25) from worker-48568
+2016-04-15 13:53:04,901 server [INFO] Partial result 1059723.97559 with parameters: ('dia', 150, 5, 4, 89, 25) from worker-49068
+2016-04-15 13:53:05,095 server [INFO] Partial result 1027532.98875 with parameters: ('dia', 150, 5, 5, 87, 25) from worker-47376
+2016-04-15 13:53:05,104 server [INFO] Partial result 1059723.97559 with parameters: ('dia', 150, 5, 4, 95, 25) from worker-49664
+2016-04-15 13:53:15,990 server [INFO] Partial result 1027532.98875 with parameters: ('dia', 150, 5, 5, 95, 25) from worker-48568
+2016-04-15 13:53:16,013 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 6, 86, 9) from worker-49068
+2016-04-15 13:53:16,289 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 6, 95, 20) from worker-47376
+2016-04-15 13:53:16,305 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 7, 84, 10) from worker-49664
+2016-04-15 13:53:27,232 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 7, 93, 21) from worker-48568
+2016-04-15 13:53:27,433 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 9, 80, 12) from worker-49664
+2016-04-15 13:53:27,444 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 8, 82, 11) from worker-49068
+2016-04-15 13:53:27,642 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 8, 91, 22) from worker-47376
+2016-04-15 13:53:38,617 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 9, 89, 23) from worker-48568
+2016-04-15 13:53:38,717 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 10, 78, 13) from worker-49664
+2016-04-15 13:53:38,848 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 5, 10, 87, 24) from worker-49068
+2016-04-15 13:53:38,918 server [INFO] Partial result 1150110.03713 with parameters: ('dia', 150, 6, 2, 75, 25) from worker-47376
+2016-04-15 13:53:50,584 server [INFO] Partial result 1150110.03713 with parameters: ('dia', 150, 6, 2, 85, 25) from worker-48568
+2016-04-15 13:53:50,667 server [INFO] Partial result 1108500.33203 with parameters: ('dia', 150, 6, 3, 92, 25) from worker-47376
+2016-04-15 13:53:50,671 server [INFO] Partial result 1150110.03713 with parameters: ('dia', 150, 6, 2, 95, 25) from worker-49068
+2016-04-15 13:53:50,681 server [INFO] Partial result 1150110.03713 with parameters: ('dia', 150, 6, 2, 94, 25) from worker-49664
+2016-04-15 13:54:02,127 server [INFO] Partial result 1027532.98875 with parameters: ('dia', 150, 6, 5, 88, 25) from worker-49664
+2016-04-15 13:54:02,226 server [INFO] Partial result 1059723.97559 with parameters: ('dia', 150, 6, 4, 95, 25) from worker-47376
+2016-04-15 13:54:02,282 server [INFO] Partial result 1108500.33203 with parameters: ('dia', 150, 6, 3, 95, 25) from worker-48568
+2016-04-15 13:54:02,283 server [INFO] Partial result 1059723.97559 with parameters: ('dia', 150, 6, 4, 90, 25) from worker-49068
+2016-04-15 13:54:13,645 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 7, 85, 20) from worker-49068
+2016-04-15 13:54:13,664 server [INFO] Partial result 1027532.98875 with parameters: ('dia', 150, 6, 5, 95, 25) from worker-49664
+2016-04-15 13:54:13,667 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 7, 76, 9) from worker-48568
+2016-04-15 13:54:13,668 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 6, 87, 19) from worker-47376
+2016-04-15 13:54:25,137 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 8, 93, 11) from worker-49664
+2016-04-15 13:54:25,147 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 8, 83, 21) from worker-48568
+2016-04-15 13:54:25,148 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 7, 95, 10) from worker-49068
+2016-04-15 13:54:25,234 server [INFO] Partial result 1000000 with parameters: ('dia', 150, 6, 9, 81, 22) from worker-47376
