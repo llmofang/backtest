@@ -331,7 +331,7 @@ from pyalgotrade.barfeed.csvfeed import GenericBarFeed
 from pyalgotrade import logger
 
 def parameters_generator():
-    instrument=['002099']
+    instrument=['300251']
     longLine=list(range(150,300,10))
     shortLine=list(range(50,110,10))
     bl=list(range(150,300,10))
@@ -341,11 +341,11 @@ def parameters_generator():
     return itertools.product(instrument,longLine,shortLine,bl,sd,p1,p2)
 
 if __name__=='__main__':
-    instrument='002099'
-    stockcode='002099'
-    date=['2016-02-29']
+    instrument='300251'
+    stockcode='300251'
+    date=['2016-02-29','2016-03-11','2016-03-02']
     path = "../histdata/tick/bak/"
-    logger.file_log='bollinger_band_macd_002099_backtest_3days.log'
+    logger.file_log='bollinger_band_macd_300251_backtest_3days2.log'
    # barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
     barfeed=GenericBarFeed(bar.Frequency.SECOND)
     for d in date:
