@@ -1,26 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f51502c4-6479-466a-8f1f-df6ea65d6cf7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/celerybacktest/rbreaker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/livetrade/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/livetrade/livebroker.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/livetrade/livestrategy.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/livetrade/markethandler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/livetrade/orderhandler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/quantstratgy/rapidlyrise.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/celerybacktest/celery_run.py" afterPath="$PROJECT_DIR$/celerybacktest/celery_run.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/celerybacktest/celery_test.py" afterPath="$PROJECT_DIR$/celerybacktest/celery_test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/celerybacktest/command.txt" afterPath="$PROJECT_DIR$/celerybacktest/command.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/histdata/tick/bak/stock_300251_123123.csv" afterPath="$PROJECT_DIR$/histdata/tick/bak/stock_300251_123123.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/histdata/tick/bak/stock_300251__2016-02-29.csv" afterPath="$PROJECT_DIR$/histdata/tick/bak/stock_300251__2016-02-29.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/histdata/tick/stock_000738_2016-02-26_tick.csv" afterPath="$PROJECT_DIR$/histdata/tick/stock_000738_2016-02-26_tick.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/histdata/tick/stock_300251_2016-02-26_tick.csv" afterPath="$PROJECT_DIR$/histdata/tick/stock_300251_2016-02-26_tick.csv" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" afterPath="$PROJECT_DIR$/stratlib/bollinger_band_macd.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickbarfeed/TickBarDataSeries.py" afterPath="$PROJECT_DIR$/tickbarfeed/TickBarDataSeries.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tickbarfeed/tickcsvfeed.py" afterPath="$PROJECT_DIR$/tickbarfeed/tickcsvfeed.py" />
-    </list>
+    <list default="true" id="f51502c4-6479-466a-8f1f-df6ea65d6cf7" name="Default" comment="" />
     <ignored path="backtest.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -611,9 +592,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20520833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
