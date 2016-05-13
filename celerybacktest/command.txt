@@ -1,1 +1,5 @@
 celery worker -A celery_config -l info -c 5
+
+redis
+删除默认：flushdb
+删除全部：flushall

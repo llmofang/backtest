@@ -131,3 +131,55 @@ class TickBarDataSeries(dataseries.SequenceDataSeries):
 
     def getMatchDataSeries(self):
         return self.matchDS
+
+    def getAskPrices(self):
+        return [self.askPrice1DS,self.askPrice2DS,self.askPrice3DS,self.askPrice4DS,self.askPrice5DS,self.askPrice6DS,self.askPrice7DS,self.askPrice8DS,self.askPrice9DS,self.askPrice10DS]
+
+    def getBidPrices(self):
+        return [self.bidPrice1DS,self.bidPrice2DS,self.bidPrice3DS,self.bidPrice4DS,self.bidPrice5DS,self.bidPrice6DS,self.bidPrice7DS,self.bidPrice8DS,self.bidPrice9DS,self.bidPrice10DS]
+
+    def getAskVols(self):
+        return [self.askVol1DS,self.askVol2DS,self.askVol3DS,self.askVol4DS,self.askVol5DS,self.askVol6DS,self.askVol7DS,self.askVol8DS,self.askVol9DS,self.askVol10DS]
+
+    def getBidVols(self):
+        return [self.bidVol1DS,self.bidVol2DS,self.bidVol3DS,self.bidVol4DS,self.bidVol5DS,self.bidVol6DS,self.bidVol7DS,self.bidVol8DS,self.bidVol9DS,self.bidVol10DS]
+
+    def getLastAskPrices(self):
+        if len(self.askPrice1DS)<=0:
+            return None
+        return [self.askPrice1DS[-1],self.askPrice2DS[-1],self.askPrice3DS[-1],self.askPrice4DS[-1],self.askPrice5DS[-1],self.askPrice6DS[-1],self.askPrice7DS[-1],self.askPrice8DS[-1],self.askPrice9DS[-1],self.askPrice10DS[-1]]
+
+    def getLastBidPrices(self):
+        if len(self.askPrice1DS)<=0:
+            return None
+        return [self.bidPrice1DS[-1],self.bidPrice2DS[-1],self.bidPrice3DS[-1],self.bidPrice4DS[-1],self.bidPrice5DS[-1],self.bidPrice6DS[-1],self.bidPrice7DS[-1],self.bidPrice8DS[-1],self.bidPrice9DS[-1],self.bidPrice10DS[-1]]
+
+    def getLastAskVols(self):
+        if len(self.askPrice1DS)<=0:
+            return None
+        return [self.askVol1DS[-1],self.askVol2DS[-1],self.askVol3DS[-1],self.askVol4DS[-1],self.askVol5DS[-1],self.askVol6DS[-1],self.askVol7DS[-1],self.askVol8DS[-1],self.askVol9DS[-1],self.askVol10DS[-1]]
+
+    def getLastBidVols(self):
+        if len(self.askPrice1DS)<=0:
+            return None
+        return [self.bidVol1DS[-1],self.bidVol2DS[-1],self.bidVol3DS[-1],self.bidVol4DS[-1],self.bidVol5DS[-1],self.bidVol6DS[-1],self.bidVol7DS[-1],self.bidVol8DS[-1],self.bidVol9DS[-1],self.bidVol10DS[-1]]
+
+    def getPreAskPrices(self):
+        if len(self.askPrice10DS)<2:
+            return None
+        return  [self.askPrice1DS[-2],self.askPrice2DS[-2],self.askPrice3DS[-2],self.askPrice4DS[-2],self.askPrice5DS[-2],self.askPrice6DS[-2],self.askPrice7DS[-2],self.askPrice8DS[-2],self.askPrice9DS[-2],self.askPrice10DS[-2]]
+
+    def getPreBidPrices(self):
+        if len(self.bidPrice1DS)<2:
+            return None
+        return [self.bidPrice1DS[-2],self.bidPrice2DS[-2],self.bidPrice3DS[-2],self.bidPrice4DS[-2],self.bidPrice5DS[-2],self.bidPrice6DS[-2],self.bidPrice7DS[-2],self.bidPrice8DS[-2],self.bidPrice9DS[-2],self.bidPrice10DS[-2]]
+
+    def getPreAskVols(self):
+        if len(self.askVol1DS)<2:
+            return None
+        return [self.askVol1DS[-2],self.askVol2DS[-2],self.askVol3DS[-2],self.askVol4DS[-2],self.askVol5DS[-2],self.askVol6DS[-2],self.askVol7DS[-2],self.askVol8DS[-2],self.askVol9DS[-2],self.askVol10DS[-2]]
+
+    def getPreBidVols(self):
+        if len(self.bidVol1DS)<2:
+            return None
+        return [self.bidVol1DS[-2],self.bidVol2DS[-2],self.bidVol3DS[-2],self.bidVol4DS[-2],self.bidVol5DS[-2],self.bidVol6DS[-2],self.bidVol7DS[-2],self.bidVol8DS[-2],self.bidVol9DS[-2],self.bidVol10DS[-2]]

@@ -280,40 +280,39 @@ class bollinger_band(strategy.BacktestingStrategy):
 
 
 
-# from pyalgotrade.barfeed.csvfeed import GenericBarFeed
-# from pyalgotrade import bar
-# from pyalgotrade import plotter
-# if __name__=='__main__':
-#     instrument='300251'
-#     stockcode='300251'
-#     #date=['2016-02-29','2016-03-02','2016-03-11']
-#     date=['2016-03-02']
-#     path = "../histdata/tick/bak/"
-#     strat = bollinger_band
-#     paras=[155,115,220,30]
-#     plot = True
-#    # barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
-#     barfeed=GenericBarFeed(bar.Frequency.SECOND)
-#     for d in date:
-#         filepath = path +'stock_'+ stockcode + "_"+d+".csv"
-#         barfeed.addBarsFromCSV(instrument, filepath)
-#     barfeed.setDateTimeFormat('%Y-%m-%d %H:%M:%S')
-#     strat = strat(barfeed, instrument, *paras)
-#     if plot:
-#         plt = plotter.StrategyPlotter(strat)
-#         position = strat.getTest()
-#         plt.getOrCreateSubplot("position").addDataSeries("position", position)
-#         plt.getOrCreateSubplot("macd").addDataSeries('macd',strat.getMACD())
-#         plt.getOrCreateSubplot("macd").addDataSeries("upper", strat.getBollingerBands().getUpperBand())
-#         plt.getOrCreateSubplot("macd").addDataSeries("middle", strat.getBollingerBands().getMiddleBand())
-#         plt.getOrCreateSubplot("macd").addDataSeries("lower", strat.getBollingerBands().getLowerBand())
-#         #position = strat.getTest()
-#         #plt.getOrCreateSubplot("position").addDataSeries("position", position)
-#         #plt.getOrCreateSubplot("macd").addDataSeries('macd2',strat.getMACD2())
-#     strat.run()
-#
-#     if plot:
-#         plt.plot()
+from pyalgotrade.barfeed.csvfeed import GenericBarFeed
+from pyalgotrade import bar
+from pyalgotrade import plotter
+if __name__=='__main__':
+    instrument='000738'
+    #date=['2016-02-29','2016-03-02','2016-03-11']
+    date=['2016-04-28']
+    path = "../histdata/tick/bak/"
+    strat = bollinger_band
+    paras=[220,150,220,30]
+    plot = True
+   # barfeed = tickcsvfeed.TickBarFeed(bar.Frequency.SECOND)
+    barfeed=GenericBarFeed(bar.Frequency.SECOND)
+    for d in date:
+        filepath = path +'stock_'+ instrument + "_"+d+".csv"
+        barfeed.addBarsFromCSV(instrument, filepath)
+    barfeed.setDateTimeFormat('%Y-%m-%d %H:%M:%S')
+    strat = strat(barfeed, instrument, *paras)
+    if plot:
+        plt = plotter.StrategyPlotter(strat)
+        position = strat.getTest()
+        plt.getOrCreateSubplot("position").addDataSeries("position", position)
+        plt.getOrCreateSubplot("macd").addDataSeries('macd',strat.getMACD())
+        plt.getOrCreateSubplot("macd").addDataSeries("upper", strat.getBollingerBands().getUpperBand())
+        plt.getOrCreateSubplot("macd").addDataSeries("middle", strat.getBollingerBands().getMiddleBand())
+        plt.getOrCreateSubplot("macd").addDataSeries("lower", strat.getBollingerBands().getLowerBand())
+        #position = strat.getTest()
+        #plt.getOrCreateSubplot("position").addDataSeries("position", position)
+        #plt.getOrCreateSubplot("macd").addDataSeries('macd2',strat.getMACD2())
+    strat.run()
+
+    if plot:
+        plt.plot()
 
 
 #**********************************pyalgotrade optimize******************************************

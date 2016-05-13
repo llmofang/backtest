@@ -96,6 +96,7 @@ class TickRowParser(RowParser):
         self.haveAdjClose=False
         #TODO column names
         self.timeColName=columnNames['nTime']
+        self.time2ColName=columnNames['nTime']
         self.nActionDayColName=columnNames['nActionDay']
         self.preCloseColName=columnNames['nPreClose']
         self.nOpenColName=columnNames['nOpen']
@@ -157,10 +158,10 @@ class TickRowParser(RowParser):
             nTime='0'+nTime
         nTime=nTime[:-3]
         DateTime=nDate+nTime
-        return parser.parse(DateTime).strftime('%Y-%m-%d %H:%M:%S')
-
+        #return parser.parse(DateTime).strftime('%Y-%m-%d %H:%M:%S')
+        return  parser.parse(DateTime)
     def _parseTime(self,nDate,time):
-        time=time[3:-11]
+        time=time[2:-10]
         time=str(nDate)+" "+time
         return  parser.parse(time)
 
@@ -175,7 +176,8 @@ class TickRowParser(RowParser):
         return self.haveAdjClose
     #TODO
     def parseBar(self, csvRowDict):
-        datetime = self._parseTime(csvRowDict[self.nActionDayColName],csvRowDict[self.timeColName])
+        #datetime = self._parseTime(csvRowDict[self.nActionDayColName],csvRowDict[self.timeColName])
+        datetime = self._parseDate(csvRowDict[self.nActionDayColName],csvRowDict['nTime'])
         preclose = float(csvRowDict[self.preCloseColName])/10000
         open = float(csvRowDict[self.nOpenColName])/10000
         close=float(csvRowDict[self.nMatchColName])/10000
